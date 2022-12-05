@@ -9,32 +9,8 @@
 using namespace std;
 
 int main() {
-    Array a(10);
-    //LinkedList list(4);
-    //list.print();
-    //cout<<"----------------"<<endl;
-    //list.remove(0);
-    //list.add(3);
-    //list.subList(1, 3);
-    //list.isEmpty();
-    //list.set(2, 4);
-    //list.contains(2);
-    //list.insert(2, 10);
-    //list.clear();
-    //cout<<list.get(2)<<endl;
-    //list.print();
 
-
-
-
-    /*a.insert(2, 8);
-    cout<<a.get(11)<<endl;
-    cout<<a.cStr()<<endl;
-*/
-
-
-
-    Kramer k(3);
+    Gauss k(3);
 
     k.set(0,0, 1);
     k.set(0,1, 2);
@@ -53,11 +29,10 @@ int main() {
     b.set(2, 1);
 
     cout<<k.toString()<<endl;
-    //k.opr(&k, 3);
     cout<<"----------------"<<endl;
 
-    //k.Gauss(&k, &b, 0, 0 );
-    k.solve(&k, &b, 0, 0);
+    k.solve(&b);
+
     //cout<<"----------------"<<endl;
     //cout<<k.toString()<<endl;
     //k.kramer(&k, &b);

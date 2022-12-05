@@ -135,7 +135,4 @@ void Matrix::transpose()  {
     }
 }
 
-void Matrix::solve(Matrix *mat, Array *b, int position, int position2) {
-
-}
 

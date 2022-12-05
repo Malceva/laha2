@@ -73,8 +73,14 @@ build CMakeFiles/Matrixx.dir/LinkedList.cpp.obj: CXX_COMPILER__Matrixx_Debug C$:
   OBJECT_DIR = CMakeFiles\Matrixx.dir
   OBJECT_FILE_DIR = CMakeFiles\Matrixx.dir
 
-build CMakeFiles/Matrixx.dir/SLAY.cpp.obj: CXX_COMPILER__Matrixx_Debug C$:/Users/Daria/CLionProjects/Matrixx/SLAY.cpp || cmake_object_order_depends_target_Matrixx
-  DEP_FILE = CMakeFiles\Matrixx.dir\SLAY.cpp.obj.d
+build CMakeFiles/Matrixx.dir/Kramer.cpp.obj: CXX_COMPILER__Matrixx_Debug C$:/Users/Daria/CLionProjects/Matrixx/Kramer.cpp || cmake_object_order_depends_target_Matrixx
+  DEP_FILE = CMakeFiles\Matrixx.dir\Kramer.cpp.obj.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles\Matrixx.dir
+  OBJECT_FILE_DIR = CMakeFiles\Matrixx.dir
+
+build CMakeFiles/Matrixx.dir/Gauss.cpp.obj: CXX_COMPILER__Matrixx_Debug C$:/Users/Daria/CLionProjects/Matrixx/Gauss.cpp || cmake_object_order_depends_target_Matrixx
+  DEP_FILE = CMakeFiles\Matrixx.dir\Gauss.cpp.obj.d
   FLAGS = -g -std=gnu++14
   OBJECT_DIR = CMakeFiles\Matrixx.dir
   OBJECT_FILE_DIR = CMakeFiles\Matrixx.dir
@@ -87,7 +93,7 @@ build CMakeFiles/Matrixx.dir/SLAY.cpp.obj: CXX_COMPILER__Matrixx_Debug C$:/Users
 #############################################
 # Link the executable Matrixx.exe
 
-build Matrixx.exe: CXX_EXECUTABLE_LINKER__Matrixx_Debug CMakeFiles/Matrixx.dir/main.cpp.obj CMakeFiles/Matrixx.dir/Array_.cpp.obj CMakeFiles/Matrixx.dir/library.cpp.obj CMakeFiles/Matrixx.dir/LinkedList.cpp.obj CMakeFiles/Matrixx.dir/SLAY.cpp.obj
+build Matrixx.exe: CXX_EXECUTABLE_LINKER__Matrixx_Debug CMakeFiles/Matrixx.dir/main.cpp.obj CMakeFiles/Matrixx.dir/Array_.cpp.obj CMakeFiles/Matrixx.dir/library.cpp.obj CMakeFiles/Matrixx.dir/LinkedList.cpp.obj CMakeFiles/Matrixx.dir/Kramer.cpp.obj CMakeFiles/Matrixx.dir/Gauss.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\Matrixx.dir

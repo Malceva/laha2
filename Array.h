@@ -67,13 +67,13 @@ public:
     void push_front(int val);
     void pop_front();
     void delFirst();
-    void add(int data);
+    void add(float val);
     void remove(int index);
-    void insert(int index, int val);
+    void insert(int index, float val);
     void clear();
-    void contains(int val);
-    float get(int val);
-    void set(int index, int val);
+    void contains(float val);
+    float get(int index);
+    void set(int index, float val);
     void isEmpty();
     void subList(int index, int index2);
 

@@ -24,7 +24,7 @@ LinkedList::~LinkedList() {
     clear();
 }
 
-void LinkedList::add(int data) {
+void LinkedList::add(float data) {
     if (head == nullptr){
         head = new Node(data);
     }
@@ -59,7 +59,7 @@ void LinkedList::remove(int index)
     }
 }
 
-void LinkedList::insert(int index, int val) {
+void LinkedList::insert(int index, float val) {
 
     if(index == 0)
     {
@@ -84,7 +84,7 @@ void LinkedList::clear() {
     }
 }
 
-void LinkedList::contains(int val) {
+void LinkedList::contains(float val) {
     int size = 0;
     Node *current = this->head;
     while(current!= nullptr)
@@ -119,7 +119,7 @@ float LinkedList::get(int val) {
     }
 }
 
-void LinkedList::set(int index, int val) {
+void LinkedList::set(int index, float val) {
 
     if(index == 0)
     {
